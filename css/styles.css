@@ -1,0 +1,31 @@
+:root {
+   --primary-text-color: #757575;
+   --title-text-color: #000000;
+   --accent-color: #188CE8;
+}
+
+body {
+    background-color: #ffffff;
+    color: var(--primary-text-color);
+}
+
+ul {
+    list-style: none;
+}
+/*site-nav*/
+.site-nav>li,a {
+    color: #212121;
+}
+
+a:hover,
+a:focus {
+    color: var(--accent-color);
+}
+.button:hover,
+.button:focus {
+    color: #ffffff;
+    background-color: var(--accent-color);
+}
+.title {
+color: var(--title-text-color);
+}
