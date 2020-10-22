@@ -6,7 +6,26 @@ html {
 *::after {
     box-sizing: inherit;
 }
+h1,h2,h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
 
+  .visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+  }
 :root {
    --primary-text-color: #757575;
    --secondary-text-color: #212121;
@@ -53,7 +72,9 @@ a:focus {
     border-radius: 4px;
     color: var(--secondary-text-color);
     background-color: var(--filter-button-color);
+    height: 26px;
 }
+
 .footer-address-link {
     text-decoration: none;
     font-style: normal;
